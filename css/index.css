@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* 首页默认字体和颜色 */
+body{ font-size:12px; color:#666; font-family:'微软雅黑';}
+a{ color:#666;}
+/* 总体控宽*/
+.wraper{ width:1200px; margin:0 auto;}
+a:hover{ color:red;}
+/* top*/
+.top{ height:30px; border-bottom:1px solid #eee; min-width:1200px;}
+.list{ overflow:hidden;} 
+.list li{ border-left:1px dotted #ccc; float:left; height:20px; line-height:20px; margin-left:-1px; margin-top:5px; padding:0 16px 0 18px; }
+.list  li i{ height:20px; background:url(../images/weixin.png) no-repeat 0; width:20px; float:left;}
+.list span{ float:left;}
+.list b{ float:left; width:19px; height:14px; line-height:14px; color:#fff; background:#f69; text-align:center; margin:3px 0 0 4px;}
+.list .qq i{ background:url(../images/qq.png) no-repeat 0; }
+.list .car i{ background:url(../images/car.png) no-repeat 0; }
+ /* nav*/
+.hd .logo{ background:url(../images/logo.png) no-repeat 0; margin-top:40px; width:117px; height:43px; margin-right:15px; text-indent:-8888em;}
+.hd .logo-mag{  width:114px; height:20px; margin-top:54px;}
+.search{ margin-top:21px; margin-left:360px;}
+.higo{ margin-top:-63px;}
+
+.nav{ margin-top:54px;}
+.nav ul{ margin-left:20px;}
+.nav li{ float:left; margin-right:44px;}
+.nav a{ color:#333; font-size:14px;}
+.nav .on{ color:#f69;}
+/*content*/
+.content{ border-top:2px solid #f69; margin-top:17x;min-width:1200px;}
+.side{ height:572px; border:1px solid  #ccc; width:238px; overflow:hidden;}
+.side dl{ height:99px;margin:0 20px; overflow:hidden; border-bottom:1px dotted #ccc; line-height:100%; padding-top:15px;}
+.side  dt{ font-size:14px; color:#f69; margin-bottom:12px;}
+.side  dd{ font-size:12px; color:#727272;  margin:0 14px 12px 0; float:left;}
+.side .pink{ color:#f69; }
+.shop ul{ overflow:hidden; margin-top:9px; width:960px;}
+.shop li{ margin-left:10px; float:left; }
+
+
+/*head*/
+.head{ border-bottom:1px #ededed solid; margin-top:47px;  width:1200px;}
+.head div{ background:#fff; margin-bottom:-1px; }
+.head h3{ font-size:20px; color:#666; margin-right:10px;}
+.head span{ font-size:12px; color:#999;  margin-top:7px; margin-right:3px;}
+.head a{ background:url(../images/hd_rightBg.png) no-repeat right; padding-right:7px; margin-right:3px;}
+
+
+/*look*/
+.look{ overflow:hidden;}
+ .look ul{  width:1220px; }
+ .look li{ width:386px; margin:20px 20px 0 0; float:left;}
+ .look .lookk{ margin-left:2px;}
+ .look .look-r{ margin-bottom:2px; display:block;}
+ 
+ /*sale*/
+.sale ul{ margin-top:20px; overflow:hidden; width:1230px;} 
+.sale li{ margin-right:20px;}
+ /*new*/
+.new{ overflow:hidden;}
+
+.new ul{ margin-top:20px; width:1220px;}
+.new li{ width:224px; float:left; margin-right:20px; margin-bottom:40px;}
+.new div{ margin-top:19px; width:224px;}
+.new .jia{ color:#f69; font-size:14px; line-height:100%;}
+.new p{ color:#808080; font-size:12px;}
+.new .acc{ color:#959595; background:url(../images/acc_bg.png) no-repeat ; padding-left:12px;}
+
+
+/*des*/
+.des{ overflow:hidden;}
+.des ul{ width:1220px; margin-top:20px;}
+.des li{ float:left; margin-right:20px; width:386px;}
+.des span{ color:#f69; }
+.des li div{ margin:23px 0 13px 0;}
+.des b{ font-weight:normal; color:#f69; font-size:18px; margin-right:26px;}
+.des i{ font-style:normal; text-decoration:line-through; color:#999; }
+.des h3{ margin-bottom:9px; }
+.des p{ line-height:24px; }
+
+
+.fs{ overflow:hidden;}
+.fs ul{ width:1220px; margin-top:20px;}
+.fs li{ float:left; margin-right:20px; width:386px;}
+.fs span{ color:#f69; }
+.fs li div{ margin:23px 0 13px 0;}
+.fs b{ font-weight:normal; color:#f69; font-size:18px; margin-right:26px;}
+.fs i{ font-style:normal; text-decoration:line-through; color:#999; }
+.fs h3{ margin-bottom:9px; }
+.fs p{ line-height:24px; }
+.fs .link{ margin-top:7px; margin-left:5px; padding-left:35px; height:20px; line-height:20px; background:url(../images/link_bg.png) no-repeat 0; }
+.fs .link a{ color:#f69; }
+
+  
+  
+.tap{ overflow:hidden; }
+.btn{ text-align:center; margin-top:24px; }
+.btn span{ margin:0 21px; font-size:16px; }
+.btn .on{ color:#f69; border-bottom:2px solid #f69; }
+ 
+ .tap ul{ width:1220px; overflow:hidden;}
+ .tap ul li{ margin:20px 20px 0 0; float:left; width:386px;}
+.tap a{ display:block;}
+.tap .tap-l{  margin-right:2px;}
+.tap .tap-r{ margin-bottom:2px;}
+.tap-t{ text-align:center;}
+.tap-t h3{ color#666; font-size:22px; margin-top:20px; }
+.tap-t p{ color:#999; font-size:12px; line-height:30px;}
+.tap-t div{ line-height:22px; color:#999; font-size:12px;}
+.tap-t span{ color:#f69;}
+
+
+/*fooder*/
+.fooder{ overflow:hidden;}
+.fooder li{ margin-top:34px; float:left; margin-right:50px; color:#666;}
+.fooder .f-top{ border-top:1px #ddd solid; border-bottom:1px #ddd solid; width:1200px; height:215px; background:#f5f5f5;}
+.fooder .f-top-a{ background:url(../images/images/13.png) no-repeat;}
+.fooder h3{ font-size:16px; }
+.fooder .qu-l{ margin-left:48px;}
+.fooder .im{ margin-top:20px;}
+.fooder .f-con{ border-top:1px #ddd solid; border-bottom:1px #ddd solid; width:1200px; height:30px; background:#f5f5f5;}
+.f-con p{ height:30px; line-height:30px; font-size:12px; text-indent:1em;}
+.f-ft{ border-top:1px solid #ddd; background:#f5f5f5;}
+.f-ft p{ height:26px; line-height:26px;  font-size:12px;}
+
+
+
+
